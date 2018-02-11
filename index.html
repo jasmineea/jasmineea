@@ -7,12 +7,168 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!--- CSS --->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
 
     <title>Jasmine Anderson</title>
   </head>
   <body>
+  <!-- Navbar -->
+   <header id="header">
+ <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-transparent" color-on-scroll="400">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://twitter.com/thecodenewbie">
+        <i class="fab fa-twitter-square"></i>
+        <p>Twitter</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/jasmineea">
+        <i class="fab fa-github-square"></i>
+        <p>GitHub</p>
+        </a>
+      </li>
+       <li>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Navbar Ends -->
+  
+  <!-- About -->
+   <div>
     <h1>Jasmine Anderson</h1>
-	  <h2>Front-End Developer - Traveler - Entrepreneur</h2>
+    <h2>Front-End Developer - Traveler - Entrepreneur</h2>
+    <img src="img/IMG_9931.jpg" alt="Photo of Me" class="profile-photo">
+    <p>My journey with coding began in middle school when Myspace was still cool. When I left for college I left coding behind.... Until recently. My passion for coding reignited when I wanted to created a travel page in hopes of building it to become a large digital publication all related to travel but I couldn’t find a website that fit my exact needs without having to spend an <strong>insane</strong> amount of money to pay a developer to create it. Since I already had a interest in web development, I decided to teach myself coding instead. </p>
+    <button type="button" class="btn btn-neutral">Lets Chat!</button>
+    </div>
+    
+    </header>
+    
+   <section id="skills">
+     <h1>Skills</h1>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+     <h3>HTML</h3>
+      <i class="fab fa-html5 fa-7x"></i>
+    </div>
+    <div class="col-sm">
+     <h3>CSS</h3>
+      <i class="fab fa-css3-alt fa-7x"></i>
+    </div>
+    <div class="col-sm">
+     <h3>PHP</h3>
+      <i class="fab fa-php fa-7x"></i>
+    </div>
+    <div class="col-sm">
+        <h3>WordPress</h3>
+        <i class="fab fa-wordpress fa-7x"></i>
+    </div>
+    </div> 
+</div>
+    </section>
+    
+    <!-- Quote -->
+<section id="quote">   
+<div class="container">
+   <blockquote class="blockquote text-right">
+  <p class="mb-0">// it's up to you...</p>
+  <p>if (youWant() === true) {</p>
+  <p>you can();</p>
+  <p>} else {youCant();}</p>
+  <footer class="blockquote-footer">Someone on social media <cite title="Source Title"></cite></footer>
+</blockquote>
+  </div>  
+    </section> 
+    <!-- Portfolio -->
+    
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+         <h1>Recent Projects</h1>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://codepen.io/jasminea/pen/PQbdov">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Lake Tahoe, CA</h2>
+                  <p class="mb-0">Landing Page for tour company</p>
+                </span>
+              </span> 
+              <img class="img-fluid" src="img/mountains.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Coming Soon</h2>
+                  <p class="mb-0">Coming soon...</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/patrick-hendry-180864.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Coming Soon</h2>
+                  <p class="mb-0">Working on a project...</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/stuart-guest-smith-123759.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Coming Soon</h2>
+                  <p class="mb-0">I'm working on it...</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/joshua-stannard-151257.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    
+       <footer id="footer" class="py-3 bg-warning">
+      <div class="container">
+        <p class="m-0 text-center">Copyright &copy; Jasmine Anderson 2018</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
