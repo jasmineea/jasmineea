@@ -1,110 +1,113 @@
 body {
     background: white;
-    font-family: 'Bangers';
+    font-family: 'Coiny', cursive;
 }
 
-nav a {
-color: orange;
-}
 
 header {
-    text-align: center;
-    padding: 200px;
-    background: url(https://www.dropbox.com/s/gvz2bxyb3lrogpm/stuart-guest-smith-150560.jpg?raw=1) no-repeat;
+  background: linear-gradient(#bed9eb, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+             #2070e1
+        url(https://www.dropbox.com/s/9xrmoshmm27381r/sam-wheeler-2304-unsplash.jpg?raw=1);
     background-size: cover;
+    height: 550px;
+    text-align: center;
+    font-family: 'Coiny', cursive;
 }
+
+
+header ul {
+    list-style-type: none;
+     margin-right: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 10px;
+   
+}
+
 .icon {
     color: white;
 }
 
-.social {
-    list-style-type: none;
+.profile-pic {
+    height: 250px;
+    width: 250px;
+    border-radius: 80%;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
 }
 
-.social li {
-    display: inline;
-    margin-right: 20px;
-}
-
-/* LAYOUT */
 #about {
     text-align: center;
-    margin: 20px
+    font-family: 'Coiny', cursive;
 }
-#about .about-content {
-    margin: 20px 50px;
-    font-size: 20px;
-    font-family: 'Shadows Into Light', cursive;
+
+.about-text {
+    margin-top: 10px;
 }
-.about-photo {
-    height: 200px;
-    border-radius: 100%;
-    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+#about ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.fa-css3-alt {
+    color: red;
+}
+
+.fa-html5 {
+    color: yellow;
+}
+
+.fa-wordpress {
+    color: green;
+}
+
+.fa-php {
+    color: blue
+}
+
+#skills {
+    text-align: center;
+    font-family: 'Coiny', cursive;
+}
+.card {
+    text-align: center;
+    margin-top: 20px;
+     box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #projects {
-   margin: 50px 20px 0;
-    
-}
-.project-header {
     text-align: center;
-    margin: 30px;
+    margin-top: 40px;
+    font-family: 'Coiny', cursive;
 }
-.card {
-    margin-bottom: 20px;
-    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
-}
 
 #contact {
     text-align: center;
-    margin: 20px 170px
+    margin-top: 40px;
+    font-family: 'Coiny', cursive;
+}
+
+.contact-text {
+    margin-top: 10px;
 }
 
 footer {
-
-    padding: 5px;
+    color: #2070e1;
     text-align: center;
-    color: white;
-  
+    padding: 10px;
+    margin-top: 20px;
+     background: linear-gradient(#bed9eb, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+             #2070e1
+        url(https://www.dropbox.com/s/9xrmoshmm27381r/sam-wheeler-2304-unsplash.jpg?raw=1);
+    background-size: cover;
+     font-family: 'Coiny', cursive;
 }
 
-/* Media Queries*/
-
-@media (max-width: 500px) {
-    header {
-        padding: 30px
-    }
-    
-    .social {
-        padding: 10px;
-    }
-
-    #contact {
-        margin: 20px
-    }
-    
-    #projects {
-        margin: 80px;  
-    
-    }
-    
-    p {
-        font-size: 20px
-    }
-    
-   .about-photo {
-        margin-bottom: 30px;
-    }
-    
-    
-}
-
-/* Psuedo Code*/
 a:link {
-    color: darkorange
+    color: #2070e1;
 }
-
-
-    
-   
