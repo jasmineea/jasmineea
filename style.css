@@ -111,3 +111,10 @@ footer {
 a:link {
     color: #2070e1;
 }
+/* Media Queries*/
+
+@media (max-width: 365px) {
+    .about-text {
+        margin-top: 100px;
+    }
+}
