@@ -1,0 +1,194 @@
+header {
+    background: url(img/joseph-barrientos-93565-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: block;
+
+}
+
+header .signup {
+    color: white;
+}
+
+form {
+    margin-top: 100px
+}
+
+input {
+   margin-left: 200px;
+
+}
+
+.find {
+    margin-right: 110px;
+}
+
+#details {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 150px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 40px;
+    margin-bottom: 20px;
+
+}
+
+.info {
+    margin-top: 50px;
+}
+
+#destinations {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.des1 {
+    margin-top: 280px;
+}
+
+.des2 {
+    margin-top: 755px
+}
+
+.des3 {
+    margin-top: 380px;
+}
+.des4 {
+    margin-top: 190px;
+}
+.des5 {
+    margin-top: 210px;
+}
+
+#hero {
+    background: url(img/little-john-482458-unsplash.jpg);
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
+    color: white;
+
+}
+
+#featured {
+    text-align: center;
+}
+
+.featured-text {
+    margin-top: 210px;
+}
+
+.social-media {
+    float: left;
+    margin-left: 40px
+}
+
+footer {
+    text-align: center;
+    
+}
+
+/* Media Queries */
+
+
+
+
+@media (min-device-width: 768px) and(max-width: 1024px) {
+    input {
+        margin-left: 70px;
+    }
+    .find {
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    .des1 {
+        margin-top: 160px;
+
+    }
+    .des2 {
+        margin-top: 440px
+    }
+    .des3 {
+        margin-top: 190px
+    }
+    .des4 {
+        margin-top: 90px
+    }
+    
+    .des5 {
+        margin-top: 80px;
+    }
+    .featured-text {
+        margin-top: 90px
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        padding: 20px;
+    }
+    
+    input {
+        margin-left: 0px;
+    }
+    
+    .find {
+    margin-left: 95px;
+        margin-top: 10px
+    }
+    
+    #details {
+        margin: 10px;
+        height: 250px
+    }
+    
+    .des1 {
+        margin-top: 170px;
+        font-size: 15px;
+    }
+    .des2 {
+        margin-top: 470px;
+        font-size: 15px;
+    }
+    
+    .des3 {
+        margin-top: 380px;
+        font-size: 15px;
+    }
+    
+    .des4 {
+        margin-top: 180px;
+        font-size: 15px
+    }
+    
+    .des5 {
+        margin-top: 190px;
+        font-size: 15px;
+    }
+    #hero {
+        padding: 20px
+    }
+    
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+   
+}
