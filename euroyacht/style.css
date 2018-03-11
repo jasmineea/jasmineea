@@ -192,3 +192,62 @@ img
 
    
 }
+@media (max-width: 414px) {
+    header {
+        padding: 20px;
+    }
+    
+    input {
+        margin: 10px
+    }
+    .des1 {
+        margin-top: 190px;
+    }
+    
+    .des2 {
+        margin-top: 520px;
+    }
+    
+    .des3 {
+        margin-top: 420px;
+    }
+    
+    .des4 {
+        margin-top: 200px
+    }
+    
+    .des5 {
+        margin-top: 220px;
+    }
+    
+    .featured-text {
+        margin-top: 120px;
+    }
+    
+    .find {
+        margin-left: 90px
+    }
+    
+    .social-media {
+        margin: 20px
+    }
+    
+    #details {
+        height: 250px;
+        width: 350px;
+       
+    }
+    img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+    #hero {
+        padding: 20px;
+    }
+    
+    .card {
+        margin-bottom: 20px
+    }
+}
