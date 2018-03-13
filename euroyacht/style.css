@@ -107,34 +107,45 @@ footer {
 
 
 
-@media (min-device-width: 768px) and(max-width: 1024px) {
+@media (max-width: 1024px) {
     input {
-        margin-left: 70px;
+        margin-left: 100px;
     }
     .find {
-        margin-left: 200px;
-        margin-top: 20px;
+        margin-left: 30px;
+      
     }
     .des1 {
-        margin-top: 160px;
+        margin-top: 240px;
+        font-size: 15px;
 
     }
     .des2 {
-        margin-top: 440px
+        margin-top: 620px;
+        font-size: 15px;
     }
     .des3 {
-        margin-top: 190px
+        margin-top: 310px;
+        font-size: 15px;
     }
     .des4 {
-        margin-top: 90px
+        margin-top: 150px;
+        font-size: 15px;
     }
     
     .des5 {
-        margin-top: 80px;
+        margin-top: 170px;
+        font-size: 15px;
     }
     .featured-text {
-        margin-top: 90px
+        margin-top: 160px;
     }
+    
+    .social-media {
+    float: left;
+    margin-left: 30px;
+}
+
 }
 
 @media (max-width: 375px) {
@@ -156,9 +167,15 @@ footer {
         height: 250px
     }
     
+    #destinations .container .row .col {
+        padding: 0px;
+    }
+    
     .des1 {
-        margin-top: 170px;
+        margin-right: 0px;
         font-size: 15px;
+
+    
     }
     .des2 {
         margin-top: 470px;
@@ -183,6 +200,15 @@ footer {
         padding: 20px
     }
     
+    .featured-text {
+        margin-top: 120px;
+    }
+    
+    #featured .container .row .col {
+        padding: 0px;
+
+    }
+    
 img
 {
     max-width: 100%;
@@ -192,6 +218,7 @@ img
 
    
 }
+
 @media (max-width: 414px) {
     header {
         padding: 20px;
@@ -251,3 +278,4 @@ img
         margin-bottom: 20px
     }
 }
+
