@@ -1,159 +1,262 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=375, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    <title>Jasmine Anderson</title>
-</head>
+    <title>Euro Yacht</title>
+  </head>
+  <body>
+<!-- Navbar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+  <a class="navbar-brand" href="#">
+  <img src="img/euro-yacht-the-boat-logo.png" width="90" class="d-inline-block align-top" alt="Logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<body>
-    <!-- NAVBAR ----->
- <header>
-    <ul class="nav justify-content-center ">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Top Destinations <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Add Your Boat</a>
+      </li>
     </ul>
-   
-        <div>
-            <h1>Jasmine Anderson</h1>
-            <h3>Front-end Developer</h3>
-            <ul class="social">
-                <li><a href="https://www.linkedin.com/in/jasmine-anderson-867b5368/"><i class="fab fa-linkedin fa-2x icon"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/jasmine-anderson-867b5368/"><i class="fab fa-github-square fa-2x icon"></i></a></li>
-                <li><a href="https://codepen.io/jasminea/"><i class="fab fa-codepen fa-2x icon"></i></a></li>
-                <li><a href="https://twitter.com/thecodenewbie?lang=en"><i class="fab fa-twitter-square fa-2x icon"></i></a></li>
-                <li><a href="mailto:jasmineanderson315@yahoo.com"><i class="fas fa-envelope-square fa-2x icon"></i></a></li>
-            </ul>
-        </div>
-        <img class="profile-pic" src="https://www.dropbox.com/s/hoipulhd6egf3ff/IMG_9931.jpg?raw=1" alt="Photo of Me">
-    </header>
-
-    <!--    ABOUT ME --->
-
-    <section id="about">
-        <div class="container">
-        <p class="about-text">My journey with coding began in middle school when Myspace was still cool. However, when I left for college I left coding behind.... Up until recently. My passion for coding reignited as I was traveling around the world and decided I wanted to create a large digital platform for all things related to travel but I couldn’t find a website that fit my exact needs AND I didn't have an insane amount of money to pay a developer to create it. Since I already had a interest in web development, I decided to teach myself to code instead and I've been in love ever since... I have a passion for UI/UX design and increasing e-commerce stores online visibility through SEO optimization.</p>
-
-        <ul>
-            <li><i class="fab fa-css3-alt fa-3x"></i></li>
-            <li><i class="fab fa-html5 fa-3x"></i></li>
-            <li><i class="fab fa-wordpress fa-3x"></i></li>
-            <li><i class="fab fa-php fa-3x"></i></li>
-        </ul>
-        </div>
-    </section>
-
-    <!--- SKILLS --->
-    <section id="skills">
-        <h1>Skills</h1>
-        <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body">
-                <i class="far fa-lightbulb fa-2x"></i>
-                <h5 class="card-title">Branding</h5>
-                <p class="card-text">Define the goal and audience of the brand. Planning out content and also make design decision such as font and color.</p>
-            </div>
-        </div>
-
-        <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body">
-                <i class="fas fa-paint-brush fa-2x"></i>
-                <h5 class="card-title">UI/UX Design</h5>
-                <p class="card-text">Brainstorm and mockup the website layout then move to design and focus on user experience and business needs.</p>
-            </div>
-        </div>
-
-        <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body">
-                <i class="fas fa-code fa-2x"></i>
-                <h5 class="card-title">Code</h5>
-                <p class="card-text">Once we've agreed upon the design and fuctionality, I'll open my text editor and get to work!</p>
-            </div>
-        </div>
-
-        <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body">
-                <i class="fas fa-tachometer-alt fa-2x"></i>
-                <h5 class="card-title">Optimize</h5>
-                <p class="card-text">Finally, I will optimize the responsiveness, loading speed, and visibility of the website.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h1>Projects</h1>
-        <div class="row">
-            <div class="col">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.dropbox.com/s/fb2ov7jadgo3z3h/Screen%20Shot%202018-03-11%20at%2001.27.13.png?raw=1" alt="Card image cap">
-                    <div class="card-body">
-                       <h5 class="card-tile">Euro Yacht</h5>
-                        <p class="card-text">Euro Yacht is a website for people to list, find and rent sailing boats. This clean &amp; modern template is the best way to start your next website project.</p>
-                    <p> <a  class="project-link" href="euroyacht/index.html">View</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="https://www.dropbox.com/s/rn8uexia4jt33m7/coming-soon-2579123_640.jpg?raw=1" alt="Card image cap">
-                    <div class="card-body">
-                       <h5 class="card-title">BeYou</h5>
-                        <p class="card-text">BeYou is a website designed for small and large businesses, portfolios, agencies and personal websites.</p>
-                        <p> <a href="#">View</a> </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Sign Up</button>
+    </form>
+  </div>
+  </div>
+</nav> <!-- Navbar ends --->
     
-    <section id="contact">
-              <div class="container"> <h1>Let's Chat!</h1>
-   <p class="contact-text">Do you have a project in mind? Tell me more about it.</p>
-   <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1"></label>
-    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name">
+    <header>
+        <h1>Reserve A Boat Now!</h1>
+        <h5>And set your sails into paradise...</h5>
+      <form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="What's your destination, sailor?">
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-primary find"><i class="fas fa-ship"></i>Find a boat</button>
+    </div>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1"></label>
-    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Your email address">
-  </div>
-   <div class="form-group">
-    <label for="exampleFormControlTextarea1"></label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="A short description of your project."></textarea>
-  </div>
-  <button type="submit" class="btn btn-link"><a href="mailto:jasmineanderson315@yahoo.com">Send Message</a> <i class="fas fa-paper-plane"></i></button>
 </form>
-   </div>
+    </header>
+    
+    <section id="details">
+        <div class="container">
+            <div class="row mx-4">
+                <div class="col">
+                    <h3 class="info">2,000</h3>
+                    <h6>Destinations</h6>
+                </div>
+                <div class="col">
+                    <h3 class="info"> 1,500</h3>
+                    <h6>Cities</h6>
+                </div>
+                <div class="col">
+                    <h3 class="info">32,000</h3>
+                <h6>Boats</h6>
+                </div>
+                <div class="col">
+                    <h3 class="info">20,000</h3>
+                <h6>Sailors</h6>
+                </div>
+            </div>
+        </div>
     </section>
     
-    <footer>
-        <p>Designed with &#9749; and &#128150; by Jasmine Anderson | 2018</p>
+    <section id="destinations">
+       <div class="container">
+        <h1>EXPLORE OUR TOP DESTINATIONS</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis omnis voluptatum, eligendi asperiores aliquam impedit quibusdam laborum ipsa error perspiciatis blanditiis deserunt beatae alias ea delectus quos labore quas esse.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                         <div class="card bg-dark text-white text-left" >
+  <img class="card-img img-fluid img-thumbnail" src="img/rebe-adelaida-293711-unsplash.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title des1"><i class="fas fa-map-marker"></i>Figueira da Foz, Portugal</h5>
+    
+  </div>
+</div>
+                </div>
+                <div class="col">
+                         <div class="card bg-dark text-white text-left" >
+  <img class="card-img img-fluid img-thumbnail" src="img/jack-ward-535818-unsplash.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title des2"><i class="fas fa-map-marker"></i>Ibiza, Spain</h5>
+  </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="container info">
+            <div class="row">
+                <div class="col">
+                         <div class="card bg-dark text-white text-left" >
+  <img class="card-img img-fluid img-thumbnail" src="img/layton-diament-18618-unsplash.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title des3"><i class="fas fa-map-marker"></i>Palma'de Mallorca, Spain</h5>
+    
+  </div>
+</div>
+                </div>
+                     <div class="col">
+                         <div class="card bg-dark text-white text-left" >
+  <img class="card-img img-fluid img-thumbnail" src="img/julien-widmer-39837-unsplash.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title des4"><i class="fas fa-map-marker"></i>Portofino, Italy</h5>
+    
+  </div>
+</div>
+                </div>
+                     <div class="col">
+                         <div class="card text-white text-left" >
+  <img class="card-img img-fluid img-thumbnail" src="img/james-connolly-376514-unsplash.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title des5"><i class="fas fa-map-marker"></i>Port Hercules, Monaco</h5>
+    
+  </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary btn lg">Explore More Destinations</button>
+    </section>
+    
+    <section id="hero" class="info">
+        <div class="container">
+            <div>
+                <h1>HAVE YOUR OWN BOAT?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quo dignissimos modi iste voluptatibus tempore rem ex placeat nisi non ducimus eveniet saepe ratione adipisci repellat, at iusto! Quis, quos.</p>
+            </div>
+            <button data-brackets-id='209' type="button" class="btn btn-danger">Make Money With Your Boat</button>
+        </div>
+    </section>
+    
+    <section id="featured">
+       <div class="container">
+           <h1 class="text-uppercase info">Featured Boats</h1>
+       </div>
+       <div class="container info">
+       <div class="row">
+                <div class="col">
+                         <div class="card text-white ">
+  <img class="card-img img-fluid img-thumbnail" src="img/delphia-47.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <button type="button" class="btn btn-danger featured-boat">&#8364;580 / day</button>
+    <h6 class="featured-text">Delphia 47</h6>
+    <p><i class="fas fa-map-marker"></i>Gdansk, Poland <i class="fas fa-users"></i> 12 Berths</p>
+    
+  </div>
+</div>
+                </div>
+                     <div class="col">
+                         <div class="card text-white">
+  <img class="card-img img-fluid img-thumbnail" src="img/sense-55.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <button type="button" class="btn btn-danger featured-boat">&#8364;680 / day</button>
+    <h6 class="featured-text">Sense 67</h6>
+    <p><i class="fas fa-map-marker"></i>Portofino, Italy<i class="fas fa-users"></i> 7 Berths</p>
+    
+  </div>
+</div>
+                </div>
+       </div>
+       <div class="row info">
+                <div class="col">
+                         <div class="card text-white ">
+  <img class="card-img img-fluid img-thumbnail" src="img/cruiser-51.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <button type="button" class="btn btn-danger featured-boat">&#8364;580 / day</button>
+    <h6 class="featured-text">Cruiser 51</h6>
+    <p><i class="fas fa-map-marker"></i>Palma de Mallorca, Spain<i class="fas fa-users"></i> 10 Berths</p>
+    
+  </div>
+</div>
+                </div>
+                     <div class="col">
+                         <div class="card text-white ">
+  <img class="card-img img-fluid img-thumbnail" src="img/cruiser-41.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <button type="button" class="btn btn-danger featured-boat">&#8364;400 / day</button>
+    <h6 class="featured-text">Cruiser 41S</h6>
+    <p><i class="fas fa-map-marker"></i>Lisbon, Portugal<i class="fas fa-users"></i> 8 Berths</p>
+    
+  </div>
+</div>
+                </div>
+       </div>
+       </div>
+       <button data-brackets-id='256' type="button" class="btn btn-outline-primary info">Load More Boats</button> 
+    </section>
+    
+    <footer class="info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h3>Top Locations</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor
+</li>
+                   <li>Sit amet consectetur</li>
+                   <li>Adipisicing elit</li>
+                   <li>Eiusmod tempor</li>
+                   <li>Incididunt ut labore</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Featured Boats</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Sit amet consectetur
+</li>
+                   <li>Adipisicing elit</li>
+                   <li>Eiusmod tempor</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Follow Us!</h3>
+                   
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f fa-2x social-media"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter fa-2x social-media"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-g fa-2x social-media"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="footer-text">Contact Us</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Sit amet consectetur</li>
+                        <li>Adipisicing elit</li>
+                        <li>Eiusmod tempor</li>
+                        <li>Incididunt ut labore</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
@@ -161,6 +264,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>
