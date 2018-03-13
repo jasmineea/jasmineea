@@ -277,5 +277,9 @@ img
     .card {
         margin-bottom: 20px
     }
+    
+    #details {
+        margin-left: 25px;
+    }
 }
 
