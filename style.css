@@ -54,7 +54,7 @@ header ul li {
 }
 
 .fa-css3-alt {
-    color: red;
+    color: orange;
 }
 
 .fa-html5 {
@@ -67,6 +67,14 @@ header ul li {
 
 .fa-php {
     color: blue
+}
+
+.icon-bootstrap {
+    color: rebeccapurple;
+}
+
+.icon-ruby {
+    color: red;
 }
 
 #skills {
