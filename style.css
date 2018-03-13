@@ -31,6 +31,10 @@ header ul li {
     color: white;
 }
 
+.vector-icon {
+    font-size: 50px;
+}
+
 .profile-pic {
     height: 250px;
     width: 250px;
