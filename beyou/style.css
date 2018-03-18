@@ -248,6 +248,20 @@ footer {
     footer {
         margin: auto
     }
+    
+       .testimony-list {
+    margin-left: 60px; 
+    }
+    
+    .signup-button {
+        margin-left: 20px;
+    }
+    
+    .card {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+}
 }
 
 @media (max-width: 1024px) {
