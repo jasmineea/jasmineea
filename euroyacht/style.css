@@ -283,3 +283,11 @@ img
     }
 }
 
+@media (max-width: 375px) {
+    #details {
+        height: 250px;
+        margin: 15px;
+    }
+}
+
+
