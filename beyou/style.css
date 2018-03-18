@@ -1,0 +1,274 @@
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: block;
+
+}
+
+.social-media {
+    float: left;
+    margin-left: 35px
+}
+
+.fab-icon {
+    color: white;
+    margin-left: 10px;
+}
+
+#hero {
+    padding: 100px;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+#hero .hero-button {
+    margin-top: 20px;
+}
+
+#hero .hero-arrow {
+    margin-top: 90px;
+    font-size: 50px
+}
+
+#features {
+    text-align: center;
+    margin: 40px;
+}
+
+.feature-text {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#features .feature-col {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#pricing {
+    text-align: center;
+    margin: 40px;
+}
+
+.price-icon {
+    border-radius: 50%;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.19), 0 60px 40px rgba(0,0,0,0.23);
+    margin-top: 20px;
+}
+
+.pricing-text {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.col-text {
+    margin-top: 40px;
+}
+.price-button {
+    margin-top: 20px;
+}
+#pricing .pricing-col {
+     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#works {
+    text-align: center;
+    margin: 40px;
+}
+
+.work-text {
+   
+    margin-bottom: 80px;
+
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.card-icon {
+     box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+#team {
+    text-align: center;
+    margin: 40px;
+}
+
+.team-icon {
+    border-radius: 80%;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team-text {
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+}
+
+#testimony {
+  text-align: center;
+    margin: 40px;
+}
+.testimony-text {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.testimony-icon {
+    float: left;
+    margin: 20px;
+}
+
+.testimony-list {
+    align-items: center;
+    margin-left: 370px;
+}
+
+.testimony-photo {
+   margin-bottom: 20px;
+}
+
+.testimony-quote {
+    margin-left: 190px;
+    margin-right: 230px;
+}
+
+#contact {
+    text-align: center;
+    margin: 40px;
+}
+
+.contact-text {
+  
+}
+
+.contact-form {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#signup {
+    text-align: center;
+    margin: 40px;
+}
+
+.signup-text {
+
+}
+
+.signup-form {
+  width: 500px;
+    margin-left: 360px
+}
+
+.signup-button {
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+
+/* Media Query */
+
+@media (max-width: 375px) {
+    #hero {
+        height: 900px;
+    }
+    
+    .card {
+        margin-left: 30px;
+    }
+    
+    .testimony-quote {
+        width: 300px;
+        margin-left: 0px;
+    }
+    
+    .contact-form {
+        width: 300px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 414px) {
+    #hero {
+        height: 800px;
+    }
+    
+    .card {
+        margin-left: 50px;
+    }
+    
+    .testimony-quote {
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .contact-form {
+        width: 300px;
+        margin: 20px;
+    }
+    
+    footer {
+        margin: auto
+    }
+}
+
+@media (max-width: 1024px) {
+    #works {
+    }
+    
+    .card {
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
+    
+    .signup-form {
+        margin-left: 250px;
+    }
+    
+    .signup-button {
+        margin-left: 20px;
+    }
+    
+    .testimony-list {
+      margin-left: 250px
+    }
+}
+
