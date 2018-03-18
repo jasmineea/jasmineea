@@ -235,7 +235,7 @@ footer {
     }
     
     .card {
-        margin-left: 50px;
+        margin-left: 50px !important;
     }
     
     .testimony-quote {
@@ -259,17 +259,19 @@ footer {
     }
     
      .testimony-list {
-    margin-left: 60px; 
+   margin-left: 100px !important;
+        margin-bottom: 40px;
+    }
+    
+    .signup-form {
+        margin-left: 30px !important;
+        
     }
     
     .signup-button {
         margin-left: 20px;
     }
     
-    .card {
-        margin-left: 50px;
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 1024px) {
