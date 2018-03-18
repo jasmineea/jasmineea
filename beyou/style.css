@@ -265,8 +265,6 @@ footer {
 }
 
 @media (max-width: 1024px) {
-    #works {
-    }
     
     .card {
         margin-left: 90px;
@@ -274,7 +272,8 @@ footer {
     }
     
     .signup-form {
-        margin-left: 250px;
+        margin-left: 380px;
+        width: 300px;
     }
     
     .signup-button {
@@ -282,7 +281,8 @@ footer {
     }
     
     .testimony-list {
-      margin-left: 250px
+        margin-left: 250px;
     }
+    
+    
 }
-
